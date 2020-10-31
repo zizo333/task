@@ -71,6 +71,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                     const SizedBox(
                       height: 20,
                     ),
+
                     RaisedButton(
                       onPressed: _selectedAnswer == null || _currentIndex == 5
                           ? () {}
